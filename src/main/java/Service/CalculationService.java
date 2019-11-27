@@ -11,6 +11,7 @@ public class CalculationService {
     public int multiply(OperationType model){
         return model.getA() * model.getB();
     }
+    
 
     public double divide(OperationType model){
         if(model.getA() == 0) return 0;
